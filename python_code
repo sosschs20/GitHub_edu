@@ -1,0 +1,17 @@
+for i in range(5):
+    print(" "*(4-i)+"*"*((2*i)+1))
+for i in range(1, 5):
+    print(" "*i+"*"*(2*(4-i)+1))
+
+a = 10
+if (a % 2 == 1):
+  print("a는 홀수입니다.")
+else:
+  print("a는 짝수입니다.")
+ 
+name = "송혜경"
+age = 20
+school = "경북대학교"
+
+print(f"안녕하세요 저는 {name}입니다.")
+print(f"나이는 {age}살이고 {school} 다니고 있습니다~!")
